@@ -1,0 +1,60 @@
+MIT License
+
+Copyright (c) 2026 Pablo Rodríguez
+
+SOFTWARE LICENSE
+
+The source code of this website, including HTML, CSS, JavaScript,
+and other code files, is licensed under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, subject
+to the conditions of the MIT License.
+
+The MIT License applies exclusively to the source code of this
+website and does not grant permission to use the creative works or
+visual assets contained in this repository.
+
+CREATIVE WORKS AND VISUAL ASSETS
+
+All creative works contained in this repository are protected by
+applicable copyright and intellectual property laws and are
+"All Rights Reserved."
+
+This includes, but is not limited to, illustrations, graphic design
+projects, branding, visual identities, packaging designs, 3D
+artwork, photographs, animations, artwork, project presentations,
+and other original visual assets created by Pablo Rodríguez.
+
+These creative works may not be copied, reproduced, modified,
+distributed, published, displayed, sold, licensed, or otherwise
+used without prior written permission from the respective copyright
+holder.
+
+The fact that these works are publicly available through this
+repository or website does not constitute permission to reuse,
+modify, distribute, or exploit them.
+
+Third-party materials, including fonts, photographs, mockups,
+3D assets, software, trademarks, logos, and other resources that
+are not owned by Pablo Rodríguez remain subject to their respective
+owners' licenses and terms of use.
+
+For permission to use any protected creative work, please contact:
+
+Pablo Rodríguez
+Email: pablo.rodriguez.vallejo@gmail.com
+
+SOFTWARE DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.

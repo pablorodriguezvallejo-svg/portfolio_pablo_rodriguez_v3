@@ -1,0 +1,20 @@
+CREDITS
+
+Website design & development:
+Pablo Rodríguez
+
+Libraries:
+No required third-party JavaScript libraries. The interactions are written
+with vanilla HTML, CSS and JavaScript for easy GitHub Pages deployment.
+
+Temporary portfolio images:
+SVG placeholders created for this prototype. Replace with final project assets
+before publication.
+
+Before publishing the final portfolio, add the real credits for:
+- fonts / typefaces
+- mockups
+- photography
+- music / video
+- 3D models / textures
+- client or collaborative work

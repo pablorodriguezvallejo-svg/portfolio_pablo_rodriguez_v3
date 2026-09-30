@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--
+    GUÍA RÁPIDA PARA PERSONALIZAR ESTA PÁGINA
+    ------------------------------------------
+    1) Cambia imágenes en assets/images/.
+    2) Cambia textos traducibles en js/main.js (translations).
+    3) Cambia colores, tipografía y tamaños en css/styles.css.
+    4) Cambia enlaces de Instagram, LinkedIn y email en este HTML.
+    5) No necesitas tocar las clases data-* salvo que quieras modificar el funcionamiento de las animaciones.
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Pablo Rodríguez — diseñador gráfico ubicado en Madrid.">
+  <title>About me — Pablo Rodríguez</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <!-- Aplica el tema guardado antes de pintar la página para evitar el "flash" de tema. -->
+  <script src="js/theme-init.js"></script>
+    <!-- TODO: Si cambias la ubicación de styles.css, actualiza esta ruta. -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="inner-page">
+  <!-- =========================================================
+       ABOUT / PÁGINA SOBRE MÍ
+       ========================================================= -->
+    <!-- NAVBAR: aquí puedes cambiar el texto fijo "PABLO RODRÍGUEZ" y los enlaces del menú. -->
+  <header class="site-header site-header--solid" data-header>
+    <a class="site-logo site-logo--nav" href="index.html" data-i18n-aria="home" aria-label="Inicio"><img class="logo-mark" src="assets/logo-white.svg" alt="Pablo Rodríguez" data-site-logo data-logo-dark="assets/logo-white.svg" data-logo-light="assets/logo-dark.svg"></a>
+    <nav class="desktop-nav" aria-label="Navegación principal"><a href="index.html#projects"><span data-i18n="navProjects">Proyectos</span> <span>01</span></a><a href="about.html" aria-current="page"><span data-i18n="navAbout">Sobre mí</span> <span>02</span></a><a href="index.html#contact"><span data-i18n="navContact">Contacto</span> <span>03</span></a></nav>
+    <div class="header-tools" aria-label="Preferences">
+      <button class="header-tool header-tool--theme" type="button" data-theme-toggle aria-label="Cambiar tema">
+        <span class="header-tool__symbol" data-theme-symbol aria-hidden="true">◐</span><span class="header-tool__label" data-theme-label>Dark</span>
+      </button>
+      <button class="header-tool header-tool--lang" type="button" data-lang-toggle aria-label="Cambiar idioma">
+        <span data-lang-current>ES</span><span class="header-tool__slash">/</span><span data-lang-other>EN</span>
+      </button>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu"><span data-i18n="menu">Menú</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button>
+    
+  </header>
+  <div class="mobile-menu" id="mobile-menu" hidden><div class="mobile-menu__top"><span data-i18n="navigation">Navegación</span><span>Madrid / 2026</span></div><div class="mobile-menu__links"><a href="index.html#projects">01 <b data-i18n="navProjects">Proyectos</b></a><a href="about.html">02 <b data-i18n="navAbout">Sobre mí</b></a><a href="index.html#contact">03 <b data-i18n="navContact">Contacto</b></a></div><div class="mobile-menu__bottom" data-i18n="menuDescriptor">Diseñador gráfico · Animación · Ilustración · Desarrollo</div></div>
+
+  <main class="about-page">
+    <!-- ABOUT HERO: cambia el titular y los párrafos de presentación. -->
+    <section class="about-hero">
+      <div class="section-index-label"><span>02</span><span data-i18n="aboutMe">Sobre mí</span></div>
+      <div class="about-hero__layout">
+        <div class="about-hero__title reveal-up"><p class="eyebrow" data-i18n="aboutRole">Diseñador gráfico / Madrid</p><h1 data-i18n-html="aboutHeadline">Diseñar con<br><span>intención.</span></h1></div>
+        <div class="about-hero__copy reveal-up"><p class="lead" data-i18n="aboutLead">Soy diseñador gráfico con formación en diseño y animación 3D. Trabajo entre identidad visual, dirección de arte, diseño digital, motion, ilustración y desarrollo frontend.</p><p data-i18n="aboutBody">Me interesa construir sistemas visuales reconocibles, con una idea clara detrás y una ejecución que pueda funcionar tanto en una pieza estática como en una experiencia digital.</p></div>
+      </div>
+    </section>
+
+    <!-- RETRATO: sustituye assets/images/about-portrait.svg por tu foto. -->
+    <section class="about-portrait-section">
+      <div class="portrait-wrap" data-tilt-card>
+        
+        <img src="assets/foto.png" alt="Retrato de Pablo Rodríguez">
+        <div class="portrait-ui" aria-hidden="true"><span>PR / 2026</span><span>IMAGE / 001</span></div>
+      </div>
+      <div class="portrait-copy"><span data-i18n="currentFocus">Enfoque actual</span><p data-i18n="currentFocusMeta">Identidad · Digital · Motion · 3D · Gráfica experimental</p></div>
+    </section>
+
+    <!-- CAPACIDADES: modifica nombres y descripciones de tus servicios aquí. -->
+    <section class="capabilities-section" aria-labelledby="capabilities-title">
+      <div class="section-index-label"><span>03</span><span data-i18n="capabilities">Capacidades</span></div>
+      <div class="capabilities-head"><p class="eyebrow" data-i18n="whatIDo">Lo que hago</p><h2 id="capabilities-title" data-i18n-html="capabilitiesHeadline">Un lenguaje visual<br>con distintos ritmos.</h2></div>
+      <div class="capability-list">
+        <div class="capability-row"><span>01</span><h3 data-i18n="strategy">Estrategia</h3><p data-i18n="strategyFull">Concepto · investigación · posicionamiento · dirección</p><b>↗</b></div>
+        <div class="capability-row"><span>02</span><h3 data-i18n="design">Diseño</h3><p data-i18n="designFull">Identidad · editorial · packaging · campañas · ilustración</p><b>↗</b></div>
+        <div class="capability-row"><span>03</span><h3 data-i18n="development">Desarrollo</h3><p data-i18n="developmentFull">HTML · CSS · JavaScript · interacción · prototipado</p><b>↗</b></div>
+        <div class="capability-row"><span>04</span><h3 data-i18n="motion">Motion</h3><p data-i18n="motionFull">3D · animación · sistemas de transición · dirección de arte</p><b>↗</b></div>
+        <div class="capability-row"><span>05</span><h3 data-i18n="coding">Diseño y desarrollo web</h3><p data-i18n="codingFull">HTML · CSS · JavaScript · GitHub · bibliotecas</p><b>↗</b></div>
+      </div>
+    </section>
+
+    <!-- ENLACE FINAL: puedes cambiar el destino o el texto de esta llamada a la acción. -->
+    <section class="about-end"><p class="eyebrow" data-i18n="next">Siguiente</p><a class="mega-link" href="index.html#projects" data-magnetic-link><span data-i18n="selectedProjectsLink">Proyectos seleccionados</span><i>↗</i></a></section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer"><span>© 2026 Pablo Rodríguez</span><span data-i18n="madridSpain">Madrid / España</span><a href="COPYRIGHT.txt"><span data-i18n="creditsLegal">Créditos y legal ↗</span></a></footer>
+  <!-- JavaScript principal -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>

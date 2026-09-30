@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--
+    GUÍA RÁPIDA PARA PERSONALIZAR ESTA PÁGINA
+    ------------------------------------------
+    1) Cambia imágenes en assets/images/.
+    2) Cambia textos traducibles en js/main.js (translations).
+    3) Cambia colores, tipografía y tamaños en css/styles.css.
+    4) Cambia enlaces de Instagram, LinkedIn y email en este HTML.
+    5) No necesitas tocar las clases data-* salvo que quieras modificar el funcionamiento de las animaciones.
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cibersigilismo, Y2K y dirección de arte de Pablo Rodríguez.">
+  <title>Identidad de marca — Pablo Rodríguez</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <!-- Aplica el tema guardado antes de pintar la página para evitar el "flash" de tema. -->
+  <script src="js/theme-init.js"></script>
+    <!-- TODO: Si cambias la ubicación de styles.css, actualiza esta ruta. -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="project-page" data-project="2" data-project-layout="carousel">
+  <!-- =========================================================
+       PROJECT PAGE / PLANTILLA DE PROYECTO
+       ========================================================= -->
+    <!-- NAVBAR: aquí puedes cambiar el texto fijo "PABLO RODRÍGUEZ" y los enlaces del menú. -->
+  <header class="site-header site-header--solid" data-header>
+    <a class="site-logo site-logo--nav" href="index.html" data-i18n-aria="home" aria-label="Inicio"><img class="logo-mark" src="assets/logo-white.svg" alt="Pablo Rodríguez" data-site-logo data-logo-dark="assets/logo-white.svg" data-logo-light="assets/logo-dark.svg"></a>
+    <nav class="desktop-nav" aria-label="Navegación principal"><a href="index.html#projects"><span data-i18n="navProjects">Proyectos</span> <span>01</span></a><a href="about.html"><span data-i18n="navAbout">Sobre mí</span> <span>02</span></a><a href="index.html#contact"><span data-i18n="navContact">Contacto</span> <span>03</span></a></nav>
+    <div class="header-tools" aria-label="Preferences">
+      <button class="header-tool header-tool--theme" type="button" data-theme-toggle aria-label="Cambiar tema">
+        <span class="header-tool__symbol" data-theme-symbol aria-hidden="true">◐</span><span class="header-tool__label" data-theme-label>Dark</span>
+      </button>
+      <button class="header-tool header-tool--lang" type="button" data-lang-toggle aria-label="Cambiar idioma">
+        <span data-lang-current>ES</span><span class="header-tool__slash">/</span><span data-lang-other>EN</span>
+      </button>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu"><span data-i18n="menu">Menú</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button>
+    
+  </header>
+  <div class="mobile-menu" id="mobile-menu" hidden><div class="mobile-menu__top"><span data-i18n="navigation">Navegación</span><span>Madrid / 2026</span></div><div class="mobile-menu__links"><a href="index.html#projects">01 <b data-i18n="navProjects">Proyectos</b></a><a href="about.html">02 <b data-i18n="navAbout">Sobre mí</b></a><a href="index.html#contact">03 <b data-i18n="navContact">Contacto</b></a></div><div class="mobile-menu__bottom" data-i18n="menuDescriptor">Diseñador gráfico · Animación · Ilustración · Desarrollo</div></div>
+
+  <main>
+    <!-- PROJECT INTRO: cambia título, descripción, año, rol y herramientas. -->
+    <section class="project-intro">
+      <div class="section-index-label"><span>02</span><span data-i18n="selectedProject">Proyecto seleccionado</span></div>
+      <div class="project-intro__grid"><div><p class="eyebrow" data-i18n="carouselEyebrow2">Dirección de arte / Edición fotográfica / Creación de efectos</p><h1 data-i18n-html="carouselTitle2">Cibersigilismo</h1></div><div><p class="lead" data-i18n="carouselLead2">Una serie de figuras que combinan el cibersigilismo y el Y2K.</p><dl class="project-data"><div><dt data-i18n="year">Año</dt><dd>2025</dd></div><div><dt data-i18n="role">Rol</dt><dd data-i18n="carouselRole2">Dirección de arte / Edición fotográfica / Creación de efectos</dd></div><div><dt data-i18n="tools">Herramientas</dt><dd>Photoshop / After Effects / Illustrator</dd></div></dl></div></div>
+    </section>
+
+    <!-- CAROUSEL: sustituye las rutas de las imágenes y cambia el data-autoplay si quieres otra velocidad. -->
+    <section class="project-carousel" data-carousel data-autoplay="4800">
+      <div class="carousel-stage">
+        <div class="carousel-counter"><span data-carousel-current>01</span> / 03</div>
+        <figure class="carousel-slide is-active"><img src="assets/Project 2/Sigil 1.png" alt="3D animation key visual"></figure>
+        <figure class="carousel-slide"><img src="assets/Project 2/Sigil 2.png" alt="3D animation material study"></figure>
+        <figure class="carousel-slide"><img src="assets/Project 2/Sigil 3.png" alt="3D animation typography study"></figure>
+      </div>
+      <div class="carousel-controls"><button type="button" data-carousel-prev data-i18n-aria="previousImage" aria-label="Imagen anterior">←</button><button type="button" data-carousel-next data-i18n-aria="nextImage" aria-label="Siguiente imagen">→</button><span data-i18n="dragClick">Arrastra / haz clic</span></div>
+    </section>
+
+    <!-- PROJECT STATEMENT: bloque de texto final del proyecto. -->
+    <section class="project-statement"><p class="eyebrow" data-i18n="direction">Dirección</p><h2 data-i18n-html="directionHeadline2">Figuras<br><span>experimentales.</span></h2><p data-i18n="directionBody2">Con el fin de establecer mi propio estilo y marca personal, creé estas tres figuras donde se combina el cybersigilismo y el Y2K, demostrando mi estética favorita y con la que me siento más cómodo trabajando.</p></section>
+
+    <!-- NEXT PROJECT: cambia aquí el enlace al siguiente proyecto. -->
+    <section class="project-next"><a href="project-carousel.html"><span data-i18n="nextProject">Siguiente proyecto</span><strong data-i18n="workjump2">Diseño visual de artículos ↗</strong></a></section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer"><span>© 2026 Pablo Rodríguez</span><span data-i18n="projectFooter02">Proyecto / 02</span><a href="index.html#projects"><span data-i18n="backProjects">Volver a proyectos ↗</span></a></footer>
+  <!-- JavaScript principal -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>

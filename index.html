@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!--
+    GUÍA RÁPIDA PARA PERSONALIZAR ESTA PÁGINA
+    ------------------------------------------
+    1) Cambia imágenes en assets/images/.
+    2) Cambia textos traducibles en js/main.js (translations).
+    3) Cambia colores, tipografía y tamaños en css/styles.css.
+    4) Cambia enlaces de Instagram, LinkedIn y email en este HTML.
+    5) No necesitas tocar las clases data-* salvo que quieras modificar el funcionamiento de las animaciones.
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Pablo Rodríguez, diseñador gráfico ubicado en Madrid. Diseño, animación, ilustración y desarrollo visual.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="Pablo Rodríguez — Graphic Designer">
+  <meta property="og:description" content="Diseño gráfico, dirección de arte, motion, ilustración y experiencias digitales.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-preview.svg">
+  <title>Pablo Rodríguez — Graphic Designer</title>
+  <link rel="icon" href="assets/logo-white.svg" type="image/svg+xml">
+    <!-- Aplica el tema guardado antes de pintar la página para evitar el "flash" de tema. -->
+  <script src="js/theme-init.js"></script>
+    <!-- TODO: Si cambias la ubicación de styles.css, actualiza esta ruta. -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="home-page">
+  <!-- =========================================================
+       HOME / PÁGINA PRINCIPAL
+       ========================================================= -->
+  <div class="cursor-fx" aria-hidden="true"><span></span></div>
+
+    <!-- NAVBAR: aquí puedes cambiar el texto fijo "PABLO RODRÍGUEZ" y los enlaces del menú. -->
+  <header class="site-header" data-header>
+    <a class="site-logo site-logo--nav" href="index.html" data-i18n-aria="home" aria-label="Inicio">
+      <img class="logo-mark"
+    src="assets/logo-white.svg"
+    alt="Pablo Rodríguez"
+    data-site-logo
+>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#projects" data-nav-link><span data-i18n="navProjects">Proyectos</span> <span>01</span></a>
+      <a href="about.html" data-nav-link><span data-i18n="navAbout">Sobre mí</span> <span>02</span></a>
+      <a href="#contact" data-nav-link><span data-i18n="navContact">Contacto</span> <span>03</span></a>
+    </nav>
+
+    <div class="header-tools" aria-label="Preferences">
+      <button class="header-tool header-tool--theme" type="button" data-theme-toggle aria-label="Cambiar tema">
+        <span class="header-tool__symbol" data-theme-symbol aria-hidden="true">◐</span><span class="header-tool__label" data-theme-label>Dark</span>
+      </button>
+      <button class="header-tool header-tool--lang" type="button" data-lang-toggle aria-label="Cambiar idioma">
+        <span data-lang-current>ES</span><span class="header-tool__slash">/</span><span data-lang-other>EN</span>
+      </button>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+      <span data-i18n="menu">Menú</span>
+      <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+
+    
+  </header>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+      <div class="mobile-menu__top"><span data-i18n="navigation">Navegación</span><span>Madrid / 2026</span></div>
+      <div class="mobile-menu__links">
+        <a href="#projects">01 <b data-i18n="navProjects">Proyectos</b></a>
+        <a href="about.html">02 <b data-i18n="navAbout">Sobre mí</b></a>
+        <a href="#contact">03 <b data-i18n="navContact">Contacto</b></a>
+      </div>
+      <div class="mobile-menu__bottom" data-i18n="menuDescriptor">Diseñador gráfico · Animación · Ilustración · Desarrollo</div>
+    </div>
+
+  <main>
+    <!-- HERO: cambia el copy, el logo y las tres imágenes del slideshow aquí. -->
+    <section class="hero" aria-labelledby="hero-title" data-hero>
+      <div class="hero__grid-line hero__grid-line--1" aria-hidden="true"></div>
+      <div class="hero__grid-line hero__grid-line--2" aria-hidden="true"></div>
+      <div class="hero__orb" aria-hidden="true"></div>
+
+      <div class="hero__copy reveal-up">
+        <p class="eyebrow hero__eyebrow"><span data-i18n="heroRole">Diseñador gráfico</span> / <span data-i18n="heroLocation">Ubicado en Madrid</span></p>
+        <h1 id="hero-title" class="hero__title" data-magnetic-text="Pablo Rodríguez" aria-label="Pablo Rodríguez"></h1>
+        <p class="hero__statement" data-i18n="heroStatement">Diseño visual, identidad, motion e interacción con un lenguaje entre lo editorial y lo experimental.</p>
+        <div class="hero__meta">
+          <span data-i18n="metaDesign">01 / DISEÑO</span>
+          <span data-i18n="metaAnimation">02 / ANIMACIÓN</span>
+          <span data-i18n="metaIllustration">03 / ILUSTRACIÓN</span>
+          <span data-i18n="metaDevelopment">04 / DESARROLLO</span>
+        </div>
+      </div>
+
+      <div class="hero__logo-wrap" data-hero-logo-wrap>
+        <div class="hero__logo" data-hero-logo>
+<img
+    src="assets/logo-white.svg"
+    alt="Pablo Rodríguez"
+    data-site-logo
+>
+        </div>
+      </div>
+
+      <div class="hero__media" data-hero-media>
+        <div class="hero__media-frame">
+          <div class="hero__media-grid" aria-hidden="true"></div>
+          <img class="hero-slide is-active" src="assets/Bug Brawl/1.png" alt="Proyecto 01">
+          <img class="hero-slide" src="assets/Bug Brawl/2.png" alt="Proyecto 02">
+          <img class="hero-slide" src="assets/Bug Brawl/3.png" alt="Proyecto 03">
+          <img class="hero-slide" src="assets/Bug Brawl/4.png" alt="Proyecto 04">
+          <img class="hero-slide" src="assets/Bug Brawl/5.png" alt="Proyecto 05">
+          <img class="hero-slide" src="assets/Bug Brawl/6.png" alt="Proyecto 06">
+          <img class="hero-slide" src="assets/Bug Brawl/7.png" alt="Proyecto 07">
+          <img class="hero-slide" src="assets/Bug Brawl/8.png" alt="Proyecto 08">
+          <img class="hero-slide" src="assets/Bug Brawl/9.png" alt="Proyecto 09">
+          <img class="hero-slide" src="assets/Bug Brawl/10.png" alt="Proyecto 10">
+          <img class="hero-slide" src="assets/Bug Brawl/11.png" alt="Proyecto 11">
+          <img class="hero-slide" src="assets/Bug Brawl/12.png" alt="Proyecto 12">
+          <img class="hero-slide" src="assets/Bug Brawl/13.png" alt="Proyecto 13">
+          <img class="hero-slide" src="assets/Bug Brawl/14.png" alt="Proyecto 14">
+          <img class="hero-slide" src="assets/Bug Brawl/15.png" alt="Proyecto 15">
+          <div class="hero__media-label"><span data-hero-count>01</span> / 15</div>
+        </div>
+      </div>
+
+      <div class="hero__scroll-note"><span data-i18n="scrollExplore">Desplázate para explorar</span><span class="hero__scroll-line"></span></div>
+    </section>
+
+    <!-- PROJECTS: seis proyectos. Los cuatro primeros usan carrusel y los dos últimos galería. -->
+    <section class="projects" id="projects" data-horizontal-section aria-labelledby="projects-title">
+      <div class="projects__sticky">
+        <div class="projects__top">
+          <div>
+            <p class="eyebrow" data-i18n="selectedProjects">Proyectos seleccionados</p>
+            <h2 id="projects-title" data-i18n-html="projectsTitle">Proyectos<span>.</span></h2>
+          </div>
+          <div class="projects__top-right">
+            <span data-i18n="years">(2023 — 2026)</span>
+            <span data-project-progress>01 / 06</span>
+          </div>
+        </div>
+        <div class="projects__viewport" data-horizontal-viewport>
+          <div class="projects__track" data-horizontal-track>
+            <article class="project-card project-card--lead" data-project-card><a href="project-carousel-1.html" class="project-card__link" data-project-link><figure class="project-card__media"><img src="assets/Project 1/Frame cubo1.png" alt="Animación 3D — Art direction, 3D y motion"><span class="project-card__index">01</span><span class="project-card__view" data-i18n="viewProject">Ver proyecto ↗</span></figure><div class="project-card__meta"><div><h3 data-i18n="project1Title">Animación 3D</h3><p data-i18n="project1Meta">Publicidad de marca · Dirección de arte · Animación</p></div><span>2025</span></div></a></article>
+            <article class="project-card" data-project-card><a href="project-carousel-2.html" class="project-card__link" data-project-link><figure class="project-card__media"><img src="assets/Project 2/Sigil 1.png" alt="Cibersigilismo — Identidad, ilustración y diseño editorial"><span class="project-card__index">02</span><span class="project-card__view" data-i18n="viewProject">Ver proyecto ↗</span></figure><div class="project-card__meta"><div><h3 data-i18n="project2Title">Identidad de marca</h3><p data-i18n="project2Meta">Cybersigilismo · Y2K · Dirección de arte</p></div><span>2026</span></div></a></article>
+            <article class="project-card" data-project-card><a href="project-carousel-3.html" class="project-card__link" data-project-link><figure class="project-card__media"><img src="assets/Project 3/portad1.png" alt="Diseño visual de artículos — placeholder"><span class="project-card__index">03</span><span class="project-card__view" data-i18n="viewProject">Ver proyecto ↗</span></figure><div class="project-card__meta"><div><h3 data-i18n="project3Title">Diseño visual de artículos</h3><p data-i18n="project3Meta">Diseño 3D · Publicidad de marca</p></div><span>2023</span></div></a></article>
+            <article class="project-card" data-project-card><a href="project-carousel-4.html" class="project-card__link" data-project-link><figure class="project-card__media"><img src="assets/Project 4/Navidad.png" alt="Ilustraciones para Starbucks — placeholder"><span class="project-card__index">04</span><span class="project-card__view" data-i18n="viewProject">Ver proyecto ↗</span></figure><div class="project-card__meta"><div><h3 data-i18n="project4Title">Ilustraciones para Starbucks</h3><p data-i18n="project4Meta">Publicidad de marca · Ilustración</p></div><span>2023</span></div></a></article>
+            <article class="project-card" data-project-card><a href="project-gallery.html" class="project-card__link" data-project-link><figure class="project-card__media"><img src="assets/Bug Brawl/1.png" alt="Bug Brawl — placeholder"><span class="project-card__index">05</span><span class="project-card__view" data-i18n="viewProject">Ver proyecto ↗</span></figure><div class="project-card__meta"><div><h3 data-i18n="project5Title">Bug Brawl</h3><p data-i18n="project5Meta">Ilustración · Identidad de marca · Packaging</p></div><span>2023</span></div></a></article>
+            <article class="project-card project-card--last" data-project-card><a href="project-gallery-6.html" class="project-card__link" data-project-link><figure class="project-card__media"><img src="assets/Project 6/1.png" alt="Ilustraciones personales — placeholder"><span class="project-card__index">06</span><span class="project-card__view" data-i18n="viewProject">Ver proyecto ↗</span></figure><div class="project-card__meta"><div><h3 data-i18n="project6Title">Ilustraciones personales</h3><p data-i18n="project6Meta">Ilustración</p></div><span>2026</span></div></a></article>
+          </div>
+        </div>
+        <div class="projects__bottom"><span data-i18n="keepScrolling">Sigue desplazándote</span><span class="projects__progress"><i data-progress-bar></i></span><span data-i18n="projectEnd">Final / 06</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT PREVIEW: es solo el resumen de la página About. -->
+    <section class="about-preview" aria-labelledby="about-preview-title">
+      <div class="section-index-label"><span>02</span><span data-i18n="aboutMe">Sobre mí</span></div>
+      <div class="about-preview__copy">
+        <p class="eyebrow" data-i18n="about">Sobre mí</p>
+        <h2 id="about-preview-title" data-i18n="aboutPreview">Creo experiencias digitales que fusionan la estética editorial con la interacción moderna.</h2>
+        <a class="text-link" href="about.html"><span data-i18n="moreAbout">Más sobre mí</span> <span>↗</span></a>
+      </div>
+      <div class="about-preview__list">
+        <div><span>01</span><b data-i18n="strategy">Estrategia</b><em data-i18n="strategyFull">Concepto · Investigación · Dirección</em></div>
+        <div><span>02</span><b data-i18n="design">Diseño</b><em data-i18n="designFull">Animación 3D · Modelado · Iluminación · Renderizado</em></div>
+        <div><span>03</span><b data-i18n="development">Desarrollo</b><em data-i18n="developmentFull">Prototipado · UI · Animaciones</em></div>
+        <div><span>04</span><b data-i18n="motion">Motion</b><em data-i18n="motionFull">Ilustración · Diseño de personajes</em></div>
+        <div><span>05</span><b data-i18n="coding">Diseño y desarrollo web</b><em data-i18n="codingFull">HTML · CSS · JavaScript · GitHub · Bibliotecas</em></div>
+      </div>
+    </section>
+
+    <!-- CONTACT: cambia aquí email, Instagram, LinkedIn y disponibilidad. -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-index-label"><span>03</span><span data-i18n="contact">Contacto</span></div>
+      <div class="contact__hero">
+        <p class="eyebrow" data-i18n="letsWork">Trabajemos juntos</p>
+        <h2 id="contact-title" data-contact-reveal data-i18n-html="contactHeadline">¿Tienes un proyecto<span>?</span></h2>
+        <a class="contact__email" href="mailto:pablo.rodriguez.vallejo@gmail.com">pablo.rodriguez.vallejo@gmail.com ↗</a>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__col"><span class="contact__label" data-i18n="social">Redes</span><a href="https://www.instagram.com/gallum.d?igsh=eW0zeTl2b2JudXBm<" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+        <div class="contact__col"><span class="contact__label" data-i18n="availability">Disponibilidad</span><span data-i18n="freelance">Freelance / Colaboraciones</span><span>Madrid · Spain</span></div>
+        <div class="contact__col"><span class="contact__label" data-i18n="navigation">Navegación</span><a href="#projects"><span data-i18n="navProjects">Proyectos</span> ↗</a><a href="about.html"><span data-i18n="navAbout">Sobre mí</span> ↗</a><a href="#contact"><span data-i18n="navContact">Contacto</span> ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER: cambia copyright, texto legal y enlaces finales aquí. -->
+
+  <footer class="site-footer"><span>© 2026 Pablo Rodríguez</span><span><span data-i18n="footerRole">Diseñador gráfico / Madrid</span></span><a href="COPYRIGHT.txt"><span data-i18n="creditsLegal">Créditos y legal ↗</span></a></footer>
+
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="page-corner page-corner--tl" aria-hidden="true"></div>
+  <div class="page-corner page-corner--br" aria-hidden="true"></div>
+
+  <!-- JavaScript principal: scroll horizontal, animaciones, idioma, tema, carrusel y lightbox. -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
