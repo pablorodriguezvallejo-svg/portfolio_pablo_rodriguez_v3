@@ -146,7 +146,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .project-card__media img{height:100%;object-fit:cover;transition:transform .8s var(--ease-soft),filter .6s ease}
 .project-card__index{position:absolute;left:11px;top:10px;z-index:2;font-size:9px;color:var(--muted);letter-spacing:.11em}
 .project-card__view{position:absolute;right:11px;bottom:10px;z-index:2;font-size:9px;color:var(--paper);opacity:0;transform:translateY(8px);transition:opacity .35s ease,transform .5s var(--ease)}
-.project-card:hover .project-card__media img{transform:scale(1.05) rotate(2deg);filter:contrast(1.06)}
+.project-card:hover .project-card__media img{transform:scale(1.05) ;filter:contrast(1.06)}
 .project-card:hover .project-card__view{opacity:1;transform:none}
 .project-card__meta{display:flex;justify-content:space-between;gap:12px;padding-top:10px;border-top:1px solid var(--line);margin-top:8px}
 .project-card__meta h3{margin:0 0 4px;font-size:clamp(17px,2vw,23px);font-weight:400;letter-spacing:-.03em}
