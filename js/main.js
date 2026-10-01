@@ -54,9 +54,11 @@
       project5Meta:'Ilustración · Identidad de marca · Packaging',
       project6Title:'Ilustraciones personales',
       project6Meta:'Ilustración',
+      project7Title: 'Revista',
+      project7Meta:'Diseño editorial',
       viewProject:'Ver proyecto ↗', 
       keepScrolling:'Sigue desplazándote', 
-      projectEnd:'Final / 06', 
+      projectEnd:'Final / 07', 
       aboutMe:'Sobre mí', 
       about:'Sobre mí',
       aboutPreview:'Creo experiencias digitales que fusionan la estética editorial con la interacción moderna.', moreAbout:'Más sobre mí',
@@ -131,7 +133,10 @@
       directionHeadline5:'Estética<br><span>funcional.</span>',
       directionBody5:'Bug Brawl es la idea que terminó dando forma a mi trabajo de fin de grado. Decidí crear un juego de cartas con mecánicas y reglas propias, un juego funcional que también presta especial atención al detalle y al estilo artístico. El juego reúne los conceptos de insectos y lucha para crear un universo en el que una gran variedad de personajes se enfrentan entre sí para asegurar la victoria del jugador. El juego está formado por un mazo de 50 cartas (30 bichos y 20 objetos) que se utilizan conjuntamente para crear un juego sencillo pero dinámico, fácil de entender y visualmente llamativo.',
       galleryEyebrow6:'Ilustración',
+      galleryEyebrow7:'Diseño editorial',
       galleryTitle6:'Ilustraciones<br><span>personales.</span>',
+      gallerytitle7:'Imperfect<br><span>Issue.</span>',
+      galleryRole7:'Diseño editorial',
       galleryLead6:'Ilustraciones hechas basadas en mis gustos personales tomando como referencia algunas de mis franquicias favoritas, como One Piece o Pokémon.',
       galleryRole6:'Ilustración',
       directionHeadline6:'Crecimiento<br><span>personal.</span>',
@@ -142,7 +147,9 @@
       nextProject:'Siguiente proyecto', 
       workjump:'Identidad de marca ↗', 
       workjump1:'Identidad de marca ↗', 
+      directionHeadline7:'Narrativa<br><span>visual.</span>',
       workjump2:'Diseño visual de artículos ↗', 
+      workjump6: 'Imperfect Issue ↗',
       dragClick:'Haz clic', 
       backProjects:'Volver a proyectos ↗',
       galleryEyebrow:'Branding / Ilustración / Editorial', 
@@ -152,12 +159,14 @@
       visualHeadline:'Un lenguaje visual<br><span>coleccionable.</span>',
       visualBody:'La dirección utiliza formas orgánicas, composición editorial y una paleta de alto contraste. Cada pieza debe funcionar individualmente y, a la vez, sentirse parte del mismo universo.',
       animation3d:'Animación 3D ↗', 
+      projectFooter07:'Proyecto / 07',
       projectFooter01:'Proyecto / 01', 
       projectFooter02:'Proyecto / 02',
       projectFooter03:'Proyecto / 03',
       projectFooter04:'Proyecto / 04',
       projectFooter05:'Proyecto / 05',
       projectFooter06:'Proyecto / 06',
+      directionbody7:'El diseño de la revista se enfoca en crear una experiencia narrativa visual que conecte con el lector a través de la composición y el uso del espacio.',
       captionKeyVisual:'01 / Visual principal', 
       captionMaterial:'02 / Estudio de materiales', 
       captionType:'03 / Sistema tipográfico', 
@@ -168,8 +177,10 @@
       previousImage:'Imagen anterior', 
       nextImage:'Siguiente imagen', 
       closeViewer:'Cerrar visor', 
-      imageViewer:'Visor de imágenes', 
-      home:'Inicio'
+      imageViewer:'Visor de imágenes',
+      galleryLead7:'Diseño de revista editorial con enfoque en la narrativa visual y la composición.', 
+      home:'Inicio',
+      cv__download:'Descargar CV ↗'
     },
     en: {
       navProjects:'Projects', 
@@ -193,6 +204,7 @@
       project1Meta:'Brand advertising · Art direction · Animation',
       project2Title:'Brand Identity',
       project2Meta:'Cybersigilism · Y2K · Art direction',
+      directionHeadline7:'Visual<br><span>narrative.</span>',
       project3Title:'Article Visual Design',
       project3Meta:'3D design · Brand advertising',
       project4Title:'Illustrations for Starbucks',
@@ -201,9 +213,11 @@
       project5Meta:'Illustration · Brand identity · Packaging',
       project6Title:'Personal Illustrations',
       project6Meta:'Illustration',
+      project7Title: 'Magazine',
+      project7Meta:'Editorial design',
       viewProject:'View project ↗', 
       keepScrolling:'Keep scrolling', 
-      projectEnd:'End / 06', 
+      projectEnd:'End / 07', 
       aboutMe:'About me', 
       about:'About',
       aboutPreview:'I create digital experiences that fuse editorial aesthetics with modern interaction.', 
@@ -213,6 +227,7 @@
       design:'Cinema 4D and Blender', 
       designMeta:'Identity · Editorial · Packaging · Art direction',
       development:'Figma', 
+      galleryLead7:'Editorial magazine design with a focus on visual narrative and composition.', 
       developmentMeta:'Frontend · Interaction · Motion', 
       contact:'Contact', 
       letsWork:"Let's work together",
@@ -253,8 +268,10 @@
       carouselLead2:'A series of figures that combine cybersigilism and Y2K.',
       year:'Year', 
       role:'Role', 
+      projectFooter07:'Project / 07',
       tools:'Tools', 
       direction:'Direction', 
+      directionbody7:'The magazine design focuses on creating a visual narrative experience that connects with the reader through composition and the use of space.',
       directionHeadline:'Dark energy,<br><span>controlled.</span>', 
       directionHeadline1:'Dynamic<br><span>cube.</span>',
       directionHeadline2:'Experimental<br><span>figures.</span>',
@@ -279,7 +296,10 @@
       directionHeadline5:'Functional<br><span>aesthetics.</span>',
       directionBody5:'Bug Brawl is the idea that ended up assembling my thesis. I decided to create a card game with its own mechanics and rules, a functional game that also widely focuses on attention to detail and art style. The game brings together the concepts of insects and fighting to create a universe where a great variety of characters fight each other to secure the player’s victory. The game is formed by a deck of 50 cards (30 bugs and 20 objects) that are used together to create a simple but dynamic game, easy to understand and eye-catching.',
       galleryEyebrow6:'Illustration',
+      galleryEyebrow7:'Editorial design',
       galleryTitle6:'Personal<br><span>illustrations.</span>',
+      gallerytitle7:'Imperfect<br><span>Issue.</span>',
+      galleryRole7:'Editorial design',
       galleryLead6:'Illustrations based on my personal tastes, taking inspiration from some of my favourite franchises, such as One Piece and Pokémon.',
       galleryRole6:'Illustration',
       directionHeadline6:'Personal<br><span>growth.</span>',
@@ -291,6 +311,7 @@
       workjump:'Brand Identity ↗', 
       workjump1:'Brand Identity ↗',
       workjump2:'Visual article design ↗',
+      workjump6: 'Imperfect Issue ↗',
       dragClick:'Click', 
       backProjects:'Back to projects ↗',
       galleryEyebrow:'Branding / Illustration / Editorial', 
@@ -317,7 +338,8 @@
       nextImage:'Next image', 
       closeViewer:'Close viewer', 
       imageViewer:'Image viewer', 
-      home:'Home'
+      home:'Home',
+      cv__download:'Download CV ↗'
     }
   };
 
@@ -359,6 +381,10 @@
     project6: {
       es: { title:'Ilustraciones personales — Pablo Rodríguez', description:'Serie de ilustraciones personales inspiradas en Pokémon, One Piece y otras franquicias favoritas.' },
       en: { title:'Personal Illustrations — Pablo Rodríguez', description:'A personal illustration series inspired by Pokémon, One Piece and favourite franchises.' }
+    },
+    project7: {
+      es: { title:'Imperfect Issue — Pablo Rodríguez', description:'Diseño de revista editorial con enfoque en la narrativa visual y la composición.' },
+      en: { title:'Imperfect Issue — Pablo Rodríguez', description:'Editorial magazine design with focus on visual storytelling and composition.' }
     }
   };
 

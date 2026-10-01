@@ -1,0 +1,244 @@
+/* =========================================================
+   PDF VIEWER
+   ========================================================= */
+
+.pdf-viewer {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+
+/* =========================================================
+   PDF STAGE
+   ========================================================= */
+
+.pdf-stage {
+  width: 100%;
+
+  height: min(72vh, 820px);
+
+  min-height: 560px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   SPREAD
+   ========================================================= */
+
+.pdf-spread {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  overflow: hidden;
+}
+
+
+/* SINGLE PAGE */
+
+.pdf-spread.single {
+  gap: 0;
+}
+
+
+/* DOUBLE PAGE */
+
+.pdf-spread.double {
+  gap: 10px;
+}
+
+
+/* =========================================================
+   PDF PAGES
+   ========================================================= */
+
+.pdf-page {
+  display: block;
+
+  flex: 0 0 auto;
+
+  max-width: none;
+  max-height: none;
+
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.14);
+
+  user-select: none;
+
+  -webkit-user-drag: none;
+
+  border-radius: 0;
+
+  height: auto;
+}
+
+
+/* =========================================================
+   LOADING
+   ========================================================= */
+
+.pdf-loading {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 20;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #77736c;
+
+  font:
+    9px
+    "DM Mono",
+    monospace;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   CONTROLS
+   ========================================================= */
+
+.pdf-controls {
+
+  width: 100%;
+
+  margin-top: 18px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
+}
+
+
+/* BUTTONS */
+
+.pdf-controls button {
+
+  width: 38px;
+  height: 38px;
+
+  border:
+    1px solid
+    rgba(16, 16, 16, 0.17);
+
+  border-radius: 50%;
+
+  background: transparent;
+
+  color: #77736c;
+
+  display: grid;
+
+  place-items: center;
+
+  font:
+    11px
+    "DM Mono",
+    monospace;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+
+/* HOVER */
+
+.pdf-controls button:hover:not(:disabled) {
+
+  background: #101010;
+
+  color: #f7f3eb;
+
+  transform: scale(1.08);
+}
+
+
+/* DISABLED */
+
+.pdf-controls button:disabled {
+
+  opacity: 0.2;
+
+  cursor: default;
+}
+
+
+/* PAGE NUMBER */
+
+.pdf-page {
+
+  min-width: 70px;
+
+  text-align: center;
+
+  font:
+    9px
+    "DM Mono",
+    monospace;
+
+  color: #77736c;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  .pdf-stage {
+
+    height: 68vh;
+
+    min-height: 420px;
+  }
+
+
+  .pdf-spread.double {
+
+    gap: 4px;
+  }
+
+
+  .pdf-controls {
+
+    margin-top: 14px;
+  }
+
+
+  .pdf-controls button {
+
+    width: 34px;
+    height: 34px;
+  }
+}
